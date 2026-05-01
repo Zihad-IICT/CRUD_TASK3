@@ -1,6 +1,4 @@
-import taskModel from "../models/taskModel.js";
-
-const { Task, tasks } = taskModel;
+import { Task, tasks } from "../models/taskModel.js";
 
 // CREATE
 export function createTask(req, res) {

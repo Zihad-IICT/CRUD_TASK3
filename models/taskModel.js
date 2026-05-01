@@ -12,4 +12,4 @@ class Task {
   }
 }
 
-export default { Task, tasks };
+export { Task, tasks };
