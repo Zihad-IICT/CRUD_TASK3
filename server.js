@@ -1,10 +1,10 @@
-import express, { json } from "express";
+import express from "express";
 import taskRoutes from "./routes/taskRoutes.js";
 
 const app = express();
 const PORT = 5000;
 
-app.use(json());
+app.use(express.json());
 
 app.use("/tasks", taskRoutes);
 
